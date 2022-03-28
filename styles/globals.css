@@ -14,3 +14,74 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.navbarshadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+}
+.firstboxtitle {
+  /* Heading 01 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  /* or 119% */
+
+  letter-spacing: -1.73958px;
+
+  color: #2e3b4e;
+}
+.firstboxcontent {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+.topright {
+  backdrop-filter: blur(10px);
+  box-shadow: -4px -4px 12px rgba(0, 0, 0, 0.05),
+    4px 4px 4px rgba(0, 0, 0, 0.05);
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+.toprightbox {
+  background: #ffffff;
+  border: 1px solid #333c47;
+  box-shadow: -8px -8px 16px rgba(51, 60, 71, 0.1),
+    8px 8px 16px rgba(51, 60, 71, 0.1);
+  border-top-left-radius: 63px;
+  border-bottom-left-radius: 63px;
+}
+.toprightimage {
+  background-image: url("/toprightbg.jpeg");
+  background-repeat: no-repeat;
+  background-size: 107% 107%;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  border-radius: 60px;
+}
+.icons {
+  height: 16px;
+  width: 16px;
+  left: 882px;
+  top: 279px;
+  border-radius: 0px;
+}
+.takeatour{
+  font-family: 'Exo 2';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
