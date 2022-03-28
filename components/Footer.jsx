@@ -1,11 +1,11 @@
 function Footer() {
   return (
-    <footer class="text-center lg:text-left bg-slate-700 text-white">
-      <div class="mx-6 py-10 text-center md:text-left">
-        <div class="flex justify-around items-start">
-          <div class="">
+    <footer className="text-center lg:text-left bg-slate-700 text-white">
+      <div className="mx-6 py-10 text-center md:text-left">
+        <div className="flex justify-around items-start">
+          <div className="">
             <h6
-              class="
+              className="
             
             mb-4
             flex
@@ -20,10 +20,10 @@ function Footer() {
             <br></br>
             <div className="flex justify-between">
                 <div className="mr-10">
-                <i class="fa fa-twitter" style={{"font-size":"24px"}}>  </i>
+                <i className="fa fa-twitter" style={{"font-size":"24px"}}>  </i>
                 </div>
                 <div>
-                <i class="fa fa-linkedin" style={{"font-size":"24px"}}></i>
+                <i className="fa fa-linkedin" style={{"font-size":"24px"}}></i>
                 </div>
                 
             </div>
@@ -32,26 +32,26 @@ function Footer() {
             
           </div>
           
-          <div class="">
-            <h6 class="font-normal mb-4 flex text-base justify-center text-gray-500">
+          <div className="">
+            <h6 className="font-normal mb-4 flex text-base justify-center text-gray-500">
               About Us
             </h6>
-            <p class="text-center text-base font-normal">
-            We're a group of enthusiasts who love<br></br> helping  creatives build software applications.
+            <p className="text-center text-base font-normal">
+            We&apos;re a group of enthusiasts who love<br></br> helping  creatives build software applications.
             </p>
           </div>
-          <div class="flex flex-col justify-center">
-            <h6 class="font-semibold mb-4 text-center text-gray-500">
+          <div className="flex flex-col justify-center">
+            <h6 className="font-semibold mb-4 text-center text-gray-500">
               Contact
             </h6>
             
-            <p class="flex items-center justify-center md:justify-start mb-4">
+            <p className="flex items-center justify-center md:justify-start mb-4">
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fas"
                 data-icon="envelope"
-                class="w-4 mr-4"
+                className="w-4 mr-4"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -63,13 +63,13 @@ function Footer() {
               </svg>
               hello@vadelabs.com
             </p>
-            <p class="flex items-center justify-center md:justify-start mb-4">
+            <p className="flex items-center justify-center md:justify-start mb-4">
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fas"
                 data-icon="phone"
-                class="w-4 mr-4"
+                className="w-4 mr-4"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"

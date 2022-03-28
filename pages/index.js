@@ -15,8 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         <style>
-          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
-          @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
+          @import url(&apos;https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap&apos;);
+          @import url(&apos;https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap&apos;);
           
         </style>
       </Head>
